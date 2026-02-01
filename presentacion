@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí | Argenis Tejada</title>
+</head>
+<body>
+
+    <!-- FOTO -->
+     <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" width="300" alt="Superación personal y crecimiento">
+    <img src="superacion.jpg" width="300">
+    <hr>
+
+    <!-- DATOS PERSONALES -->
+    <h1>Argenis Tejada</h1>
+    <h2>argenistejada911@gmail.com</h2>
+    <p><strong>Teléfono:</strong> 809-995-0332</p>
+    <p><strong>País:</strong> República Dominicana</p>
+
+    <hr>
+
+    <!-- PERFIL -->
+    <h3>Perfil Personal</h3>
+    <p>
+        Soy una persona apasionada por la tecnología, el aprendizaje constante y el mundo digital.
+        Me interesa crecer tanto a nivel académico como personal, explorando nuevas herramientas,
+        ideas y oportunidades que me permitan mejorar cada día.
+    </p>
+
+    <hr>
+
+    <!-- HOBBIES -->
+    <h3>Hobbies</h3>
+    <ul>
+        <li>🏋️‍♂️ Gym</li>
+        <li>🚴‍♂️ Ciclismo</li>
+        <li>💻 Tecnología y computadoras</li>
+        <li>🎮 Videojuegos</li>
+        <li>📱 Crear contenido digital</li>
+    </ul>
+
+    <hr>
+
+    <!-- INTERESES -->
+    <h3>Intereses</h3>
+    <ul>
+    <li>Aprendizaje rápido y autónomo</li>
+    <li>Disciplina y constancia</li>
+    <li>Comunicación efectiva</li>
+    <li>Pensamiento crítico</li>
+    <li>Organización y manejo del tiempo</li>
+    <li>Adaptabilidad al cambio</li>
+    </ul>
+
+    <hr>
+
+    <!-- HABILIDADES -->
+    <h3>Habilidades</h3>
+    <ul>
+        <li>HTML básico</li>
+        <li>Manejo de herramientas digitales</li>
+        <li>Creatividad</li>
+        <li>Trabajo en equipo</li>
+    </ul>
+
+    <hr>
+
+    <!-- REDES SOCIALES -->
+    <h3>Redes Sociales</h3>
+<ul>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li>
+        <a href="https://www.instagram.com/argenis_321?igsh=MWpjMDFnNm10OG93MQ==" target="_blank">
+            Instagram
+        </a>
+    </li>
+    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+</ul>
+
+
+    <hr>
+
+    <p>© 2026 - Argenis Tejada</p>
+
+</body>
+</html>
