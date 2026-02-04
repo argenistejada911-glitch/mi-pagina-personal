@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> formulario</title>
+</head>
+<body>
+    <h1>formulario personal :</h1>
+    
+    <form>
+
+        <fieldset>
+            <legend>formulario</legend>
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula">
+        <br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br><br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="">Seleccione</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br><br>
+
+        <label for="carrera">Carrera:</label>
+        <select id="carreras" name="carreras">
+            <option value="">Seleccione</option>
+            <option value="">Derecho</option>
+            <option value="">Administración de Empresas</option>
+            <option value="">Ciencias de la Salud </option>
+            <option value="">ing sistema</option>
+        </select>
+        <br><br>
+
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula">
+        <br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad">
+            <option value="">Seleccione</option>
+            <option value="">Santo Domingo</option>
+            <option value="">Santiago de los Caballeros</option>
+            <option value="">Puerto Plata </option>
+            <option value="">mao valverde</option>
+        </select>
+    
+        <br><br>
+
+        <label for="provincia">Provincia:</label>
+        <<select id="provincia" name="provincia">
+            <option value="">Seleccione</option>
+            <option value="">Santiago</option>
+            <option value="">Valverde</option>
+            <option value="">Puerto Plata </option>
+            <option value="">Duarte</option>
+        </select>
+        <br><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        <br><br>
+
+        <label for="comentario">Comentario:</label>
+        <br>
+        <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
