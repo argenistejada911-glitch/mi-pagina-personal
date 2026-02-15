@@ -1,0 +1,27 @@
+<script>
+let sueldoMensual = prompt("Digite sueldo mensual:");
+sueldoMensual = parseInt(sueldoMensual);
+
+let sueldoAnual = sueldoMensual * 12;
+
+let impuesto = 0;
+let mensual = 0;
+
+if (sueldoAnual <= 416220) {
+    impuesto = 0;
+}
+else if (sueldoAnual <= 624329) {
+    impuesto = (sueldoAnual - 416220) * 0.15;
+}
+else if (sueldoAnual <= 867123) {
+    impuesto = 31216 + ((sueldoAnual - 624329) * 0.20);
+}
+else {
+    impuesto = 79776 + ((sueldoAnual - 867123) * 0.25);
+}
+
+mensual = impuesto / 12;
+
+document.write("Impuesto anual: RD$ " + impuesto + "<br>");
+document.write("Impuesto mensual: RD$ " + mensual);
+</script>
