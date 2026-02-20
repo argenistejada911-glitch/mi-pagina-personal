@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiante</title>
+</head>
+<body>
+    <h2>REGISTRO DE ESTUDIANTE</h2>
+    <form action="" onsubmit="return validar()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="nombre">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="apellido">
+        <br>
+        <label for="dirrecion">Dirección:</label>
+        <input type="text" name="dirrecion" id="dirrecion" placeholder="dirección">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="text" name="correo" id="correo" placeholder="correo">
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" name="telefono" id="telefono" placeholder="teléfono">
+        <br><br>
+        <div id="msg" style="color: red;"></div>
+        <br>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <script src="app2.js"></script>
+</body>
+</html>
