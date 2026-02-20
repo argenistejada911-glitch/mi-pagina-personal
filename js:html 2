@@ -1,0 +1,41 @@
+function validar() {
+    let nombre = document.getElementById("nombre");
+    let ap = document.getElementById("apellido");
+    let dire = document.getElementById("dirrecion");
+    let cor = document.getElementById("correo");
+    let tel = document.getElementById("telefono");
+    let msg = document.getElementById("msg");
+
+    if (nombre.value == "") {
+        nombre.focus();
+        msg.innerHTML = "Debe completar el campo Nombre.";
+        return false;
+    }
+
+    if (ap.value == "") {
+        ap.focus();
+        msg.innerHTML = "Debe completar el campo Apellido.";
+        return false;
+    }
+
+    if (dire.value == "") {
+        dire.focus();
+        msg.innerHTML = "Debe completar el campo Dirección.";
+        return false;
+    }
+
+    if (cor.value == "") {
+        cor.focus();
+        msg.innerHTML = "Debe completar el campo Correo.";
+        return false;
+    }
+
+    if (tel.value == "") {
+        tel.focus();
+        msg.innerHTML = "Debe completar el campo Teléfono.";
+        return false;
+    }
+
+    msg.innerHTML = "";
+    return true;
+}
